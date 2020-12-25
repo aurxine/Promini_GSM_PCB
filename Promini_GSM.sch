@@ -6,22 +6,22 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
+<grid distance="2.54" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,19 +39,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -2119,7 +2119,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1809192312_Everlight-Elec-
 <plain>
 </plain>
 <instances>
-<instance part="PROMINI" gate="G$1" x="81.28" y="73.66" smashed="yes"/>
+<instance part="PROMINI" gate="G$1" x="88.9" y="73.66" smashed="yes"/>
 <instance part="2" gate="A" x="7.62" y="15.24" smashed="yes">
 <attribute name="NAME" x="-0.635" y="-8.89" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="1.27" y="-2.54" size="1.778" layer="96"/>
@@ -2159,10 +2159,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1809192312_Everlight-Elec-
 <wire x1="33.02" y1="132.08" x2="38.1" y2="132.08" width="0.762" layer="91"/>
 <wire x1="38.1" y1="132.08" x2="38.1" y2="127" width="0.762" layer="91"/>
 <junction x="38.1" y="132.08"/>
-<pinref part="PROMINI" gate="G$1" pin="RAW"/>
 <wire x1="38.1" y1="132.08" x2="101.6" y2="132.08" width="0.762" layer="91"/>
-<wire x1="101.6" y1="132.08" x2="101.6" y2="93.98" width="0.762" layer="91"/>
-<wire x1="101.6" y1="93.98" x2="99.06" y2="93.98" width="0.762" layer="91"/>
 <pinref part="DIODE" gate="G$1" pin="A"/>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="12.7" y1="132.08" x2="33.02" y2="132.08" width="0.762" layer="91"/>
@@ -2176,6 +2173,10 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1809192312_Everlight-Elec-
 <pinref part="VCC-GND" gate="G$1" pin="2"/>
 <wire x1="-12.7" y1="139.7" x2="-7.62" y2="139.7" width="0.762" layer="91"/>
 <wire x1="-7.62" y1="139.7" x2="-7.62" y2="144.78" width="0.762" layer="91"/>
+<wire x1="101.6" y1="132.08" x2="119.38" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="132.08" x2="119.38" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="PROMINI" gate="G$1" pin="RAW"/>
+<wire x1="119.38" y1="93.98" x2="106.68" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -2190,17 +2191,11 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1809192312_Everlight-Elec-
 <net name="N$6" class="0">
 <segment>
 <wire x1="75.98" y1="149.86" x2="55.88" y2="149.86" width="0.762" layer="91"/>
-<wire x1="55.88" y1="149.86" x2="55.88" y2="93.98" width="0.762" layer="91"/>
+<wire x1="55.88" y1="149.86" x2="55.88" y2="66.04" width="0.762" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="RX"/>
 <wire x1="75.98" y1="150.13" x2="75.98" y2="149.86" width="0.762" layer="91"/>
 <pinref part="PROMINI" gate="G$1" pin="D9"/>
-<wire x1="58.42" y1="66.04" x2="55.88" y2="66.04" width="0.762" layer="91"/>
-<wire x1="55.88" y1="66.04" x2="30.48" y2="66.04" width="0.762" layer="91"/>
-<wire x1="30.48" y1="66.04" x2="30.48" y2="7.62" width="0.762" layer="91"/>
-<pinref part="2" gate="A" pin="8"/>
-<wire x1="30.48" y1="7.62" x2="5.08" y2="7.62" width="0.762" layer="91"/>
-<wire x1="55.88" y1="93.98" x2="55.88" y2="66.04" width="0.762" layer="91"/>
-<junction x="55.88" y="66.04"/>
+<wire x1="66.04" y1="66.04" x2="55.88" y2="66.04" width="0.762" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -2217,7 +2212,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1809192312_Everlight-Elec-
 <net name="N$9" class="0">
 <segment>
 <pinref part="PROMINI" gate="G$1" pin="D3"/>
-<wire x1="58.42" y1="81.28" x2="15.24" y2="81.28" width="0.762" layer="91"/>
+<wire x1="66.04" y1="81.28" x2="15.24" y2="81.28" width="0.762" layer="91"/>
 <wire x1="15.24" y1="81.28" x2="15.24" y2="22.86" width="0.762" layer="91"/>
 <pinref part="2" gate="A" pin="2"/>
 <wire x1="15.24" y1="22.86" x2="5.08" y2="22.86" width="0.762" layer="91"/>
@@ -2226,7 +2221,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1809192312_Everlight-Elec-
 <net name="N$10" class="0">
 <segment>
 <pinref part="PROMINI" gate="G$1" pin="D4"/>
-<wire x1="58.42" y1="78.74" x2="17.78" y2="78.74" width="0.762" layer="91"/>
+<wire x1="66.04" y1="78.74" x2="17.78" y2="78.74" width="0.762" layer="91"/>
 <wire x1="17.78" y1="78.74" x2="17.78" y2="20.32" width="0.762" layer="91"/>
 <pinref part="2" gate="A" pin="3"/>
 <wire x1="17.78" y1="20.32" x2="5.08" y2="20.32" width="0.762" layer="91"/>
@@ -2235,7 +2230,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1809192312_Everlight-Elec-
 <net name="N$11" class="0">
 <segment>
 <pinref part="PROMINI" gate="G$1" pin="D5"/>
-<wire x1="58.42" y1="76.2" x2="20.32" y2="76.2" width="0.762" layer="91"/>
+<wire x1="66.04" y1="76.2" x2="20.32" y2="76.2" width="0.762" layer="91"/>
 <pinref part="2" gate="A" pin="4"/>
 <wire x1="20.32" y1="76.2" x2="20.32" y2="17.78" width="0.762" layer="91"/>
 <wire x1="20.32" y1="17.78" x2="5.08" y2="17.78" width="0.762" layer="91"/>
@@ -2244,7 +2239,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1809192312_Everlight-Elec-
 <net name="N$12" class="0">
 <segment>
 <pinref part="PROMINI" gate="G$1" pin="D6"/>
-<wire x1="58.42" y1="73.66" x2="22.86" y2="73.66" width="0.762" layer="91"/>
+<wire x1="66.04" y1="73.66" x2="22.86" y2="73.66" width="0.762" layer="91"/>
 <wire x1="22.86" y1="73.66" x2="22.86" y2="15.24" width="0.762" layer="91"/>
 <pinref part="2" gate="A" pin="5"/>
 <wire x1="22.86" y1="15.24" x2="5.08" y2="15.24" width="0.762" layer="91"/>
@@ -2253,7 +2248,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1809192312_Everlight-Elec-
 <net name="D2,D3,D4,D5-IO0,D6-IO2,D7-IO4,D8-IO5,D9-IO9,GND,VIN" class="0">
 <segment>
 <pinref part="PROMINI" gate="G$1" pin="D7"/>
-<wire x1="58.42" y1="71.12" x2="25.4" y2="71.12" width="0.762" layer="91"/>
+<wire x1="66.04" y1="71.12" x2="25.4" y2="71.12" width="0.762" layer="91"/>
 <wire x1="25.4" y1="71.12" x2="25.4" y2="12.7" width="0.762" layer="91"/>
 <pinref part="2" gate="A" pin="6"/>
 <wire x1="25.4" y1="12.7" x2="5.08" y2="12.7" width="0.762" layer="91"/>
@@ -2261,17 +2256,18 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1809192312_Everlight-Elec-
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="PROMINI" gate="G$1" pin="D8"/>
-<wire x1="58.42" y1="68.58" x2="27.94" y2="68.58" width="0.762" layer="91"/>
-<wire x1="27.94" y1="68.58" x2="27.94" y2="10.16" width="0.762" layer="91"/>
 <pinref part="2" gate="A" pin="7"/>
 <wire x1="27.94" y1="10.16" x2="5.08" y2="10.16" width="0.762" layer="91"/>
+<pinref part="PROMINI" gate="G$1" pin="TX0"/>
+<wire x1="66.04" y1="93.98" x2="58.42" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="93.98" x2="58.42" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="10.16" x2="27.94" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
 <pinref part="PROMINI" gate="G$1" pin="A3"/>
-<wire x1="99.06" y1="83.82" x2="147.32" y2="83.82" width="0.762" layer="91"/>
+<wire x1="106.68" y1="83.82" x2="147.32" y2="83.82" width="0.762" layer="91"/>
 <wire x1="147.32" y1="83.82" x2="147.32" y2="27.94" width="0.762" layer="91"/>
 <pinref part="1" gate="A" pin="1"/>
 <wire x1="147.32" y1="27.94" x2="154.94" y2="27.94" width="0.762" layer="91"/>
@@ -2280,7 +2276,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1809192312_Everlight-Elec-
 <net name="N$17" class="0">
 <segment>
 <pinref part="PROMINI" gate="G$1" pin="A2"/>
-<wire x1="99.06" y1="81.28" x2="144.78" y2="81.28" width="0.762" layer="91"/>
+<wire x1="106.68" y1="81.28" x2="144.78" y2="81.28" width="0.762" layer="91"/>
 <wire x1="144.78" y1="81.28" x2="144.78" y2="25.4" width="0.762" layer="91"/>
 <pinref part="1" gate="A" pin="2"/>
 <wire x1="144.78" y1="25.4" x2="154.94" y2="25.4" width="0.762" layer="91"/>
@@ -2289,7 +2285,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1809192312_Everlight-Elec-
 <net name="N$18" class="0">
 <segment>
 <pinref part="PROMINI" gate="G$1" pin="A1"/>
-<wire x1="99.06" y1="78.74" x2="142.24" y2="78.74" width="0.762" layer="91"/>
+<wire x1="106.68" y1="78.74" x2="142.24" y2="78.74" width="0.762" layer="91"/>
 <pinref part="1" gate="A" pin="3"/>
 <wire x1="142.24" y1="78.74" x2="142.24" y2="22.86" width="0.762" layer="91"/>
 <wire x1="142.24" y1="22.86" x2="154.94" y2="22.86" width="0.762" layer="91"/>
@@ -2298,7 +2294,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1809192312_Everlight-Elec-
 <net name="N$19" class="0">
 <segment>
 <pinref part="PROMINI" gate="G$1" pin="A0"/>
-<wire x1="99.06" y1="76.2" x2="139.7" y2="76.2" width="0.762" layer="91"/>
+<wire x1="106.68" y1="76.2" x2="139.7" y2="76.2" width="0.762" layer="91"/>
 <wire x1="139.7" y1="76.2" x2="139.7" y2="20.32" width="0.762" layer="91"/>
 <pinref part="1" gate="A" pin="4"/>
 <wire x1="139.7" y1="20.32" x2="154.94" y2="20.32" width="0.762" layer="91"/>
@@ -2307,7 +2303,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1809192312_Everlight-Elec-
 <net name="N$20" class="0">
 <segment>
 <pinref part="PROMINI" gate="G$1" pin="D13"/>
-<wire x1="99.06" y1="73.66" x2="137.16" y2="73.66" width="0.762" layer="91"/>
+<wire x1="106.68" y1="73.66" x2="137.16" y2="73.66" width="0.762" layer="91"/>
 <pinref part="1" gate="A" pin="5"/>
 <wire x1="137.16" y1="73.66" x2="137.16" y2="17.78" width="0.762" layer="91"/>
 <wire x1="137.16" y1="17.78" x2="154.94" y2="17.78" width="0.762" layer="91"/>
@@ -2316,7 +2312,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1809192312_Everlight-Elec-
 <net name="N$21" class="0">
 <segment>
 <pinref part="PROMINI" gate="G$1" pin="D12"/>
-<wire x1="99.06" y1="71.12" x2="134.62" y2="71.12" width="0.762" layer="91"/>
+<wire x1="106.68" y1="71.12" x2="134.62" y2="71.12" width="0.762" layer="91"/>
 <pinref part="1" gate="A" pin="6"/>
 <wire x1="134.62" y1="71.12" x2="134.62" y2="15.24" width="0.762" layer="91"/>
 <wire x1="134.62" y1="15.24" x2="154.94" y2="15.24" width="0.762" layer="91"/>
@@ -2325,7 +2321,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1809192312_Everlight-Elec-
 <net name="N$22" class="0">
 <segment>
 <pinref part="PROMINI" gate="G$1" pin="D11"/>
-<wire x1="99.06" y1="68.58" x2="132.08" y2="68.58" width="0.762" layer="91"/>
+<wire x1="106.68" y1="68.58" x2="132.08" y2="68.58" width="0.762" layer="91"/>
 <wire x1="132.08" y1="68.58" x2="132.08" y2="12.7" width="0.762" layer="91"/>
 <pinref part="1" gate="A" pin="7"/>
 <wire x1="132.08" y1="12.7" x2="154.94" y2="12.7" width="0.762" layer="91"/>
@@ -2334,13 +2330,8 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1809192312_Everlight-Elec-
 <net name="N$23" class="0">
 <segment>
 <pinref part="PROMINI" gate="G$1" pin="D10"/>
-<wire x1="99.06" y1="66.04" x2="109.22" y2="66.04" width="0.762" layer="91"/>
-<wire x1="109.22" y1="66.04" x2="129.54" y2="66.04" width="0.762" layer="91"/>
-<wire x1="129.54" y1="66.04" x2="129.54" y2="10.16" width="0.762" layer="91"/>
-<pinref part="1" gate="A" pin="8"/>
-<wire x1="129.54" y1="10.16" x2="154.94" y2="10.16" width="0.762" layer="91"/>
+<wire x1="106.68" y1="66.04" x2="109.22" y2="66.04" width="0.762" layer="91"/>
 <wire x1="109.22" y1="66.04" x2="109.22" y2="114.3" width="0.762" layer="91"/>
-<junction x="109.22" y="66.04"/>
 <wire x1="75.98" y1="147.32" x2="53.34" y2="147.32" width="0.762" layer="91"/>
 <wire x1="53.34" y1="147.32" x2="53.34" y2="114.3" width="0.762" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="TX"/>
@@ -2351,7 +2342,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1809192312_Everlight-Elec-
 <net name="N$24" class="0">
 <segment>
 <pinref part="PROMINI" gate="G$1" pin="GND"/>
-<wire x1="99.06" y1="91.44" x2="127" y2="91.44" width="0.762" layer="91"/>
+<wire x1="106.68" y1="91.44" x2="127" y2="91.44" width="0.762" layer="91"/>
 <wire x1="127" y1="91.44" x2="127" y2="7.62" width="0.762" layer="91"/>
 <pinref part="1" gate="A" pin="9"/>
 <wire x1="127" y1="7.62" x2="154.94" y2="7.62" width="0.762" layer="91"/>
@@ -2360,7 +2351,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1809192312_Everlight-Elec-
 <net name="N$26" class="0">
 <segment>
 <pinref part="PROMINI" gate="G$1" pin="GND2"/>
-<wire x1="50.8" y1="86.36" x2="58.42" y2="86.36" width="0.762" layer="91"/>
+<wire x1="50.8" y1="86.36" x2="66.04" y2="86.36" width="0.762" layer="91"/>
 <wire x1="50.8" y1="86.36" x2="50.8" y2="30.48" width="0.762" layer="91"/>
 <wire x1="50.8" y1="30.48" x2="33.02" y2="30.48" width="0.762" layer="91"/>
 <pinref part="2" gate="A" pin="9"/>
@@ -2399,7 +2390,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1809192312_Everlight-Elec-
 <segment>
 <pinref part="1" gate="A" pin="10"/>
 <pinref part="PROMINI" gate="G$1" pin="VCC"/>
-<wire x1="99.06" y1="86.36" x2="124.46" y2="86.36" width="0.762" layer="91"/>
+<wire x1="106.68" y1="86.36" x2="124.46" y2="86.36" width="0.762" layer="91"/>
 <wire x1="124.46" y1="86.36" x2="124.46" y2="5.08" width="0.762" layer="91"/>
 <wire x1="124.46" y1="5.08" x2="154.94" y2="5.08" width="0.762" layer="91"/>
 </segment>
@@ -2407,10 +2398,28 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1809192312_Everlight-Elec-
 <net name="N$5" class="0">
 <segment>
 <pinref part="PROMINI" gate="G$1" pin="D2"/>
-<wire x1="58.42" y1="83.82" x2="48.26" y2="83.82" width="0.762" layer="91"/>
+<wire x1="66.04" y1="83.82" x2="48.26" y2="83.82" width="0.762" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="COLLECTOR"/>
 <wire x1="45.72" y1="91.44" x2="48.26" y2="91.44" width="0.762" layer="91"/>
 <wire x1="48.26" y1="91.44" x2="48.26" y2="83.82" width="0.762" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="PROMINI" gate="G$1" pin="RX1"/>
+<wire x1="66.04" y1="91.44" x2="63.5" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="91.44" x2="63.5" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="2" gate="A" pin="8"/>
+<wire x1="63.5" y1="7.62" x2="5.08" y2="7.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="PROMINI" gate="G$1" pin="RST"/>
+<wire x1="106.68" y1="88.9" x2="116.84" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="1" gate="A" pin="8"/>
+<wire x1="116.84" y1="88.9" x2="116.84" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="10.16" x2="154.94" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
