@@ -2325,20 +2325,6 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1809192312_Everlight-Elec-
 <wire x1="119.38" y1="95.25" x2="63.5" y2="95.25" width="0.762" layer="91"/>
 </segment>
 </net>
-<net name="N$24" class="0">
-<segment>
-<pinref part="PROMINI" gate="G$1" pin="GND"/>
-<wire x1="116.84" y1="72.39" x2="137.16" y2="72.39" width="0.762" layer="91"/>
-<wire x1="137.16" y1="72.39" x2="137.16" y2="71.12" width="0.762" layer="91"/>
-<pinref part="1" gate="A" pin="9"/>
-<wire x1="137.16" y1="71.12" x2="137.16" y2="-11.43" width="0.762" layer="91"/>
-<wire x1="137.16" y1="-11.43" x2="165.1" y2="-11.43" width="0.762" layer="91"/>
-<pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="166.37" y1="53.34" x2="166.37" y2="71.12" width="0.762" layer="91"/>
-<wire x1="166.37" y1="71.12" x2="137.16" y2="71.12" width="0.762" layer="91"/>
-<junction x="137.16" y="71.12"/>
-</segment>
-</net>
 <net name="N$26" class="0">
 <segment>
 <pinref part="PROMINI" gate="G$1" pin="GND2"/>
@@ -2363,7 +2349,8 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1809192312_Everlight-Elec-
 <pinref part="U$1" gate="G$1" pin="GND"/>
 <wire x1="86.14" y1="125.08" x2="86.14" y2="125.73" width="0.762" layer="91"/>
 <wire x1="86.14" y1="125.73" x2="71.12" y2="125.73" width="0.762" layer="91"/>
-<wire x1="71.12" y1="125.73" x2="71.12" y2="100.33" width="0.762" layer="91"/>
+<wire x1="71.12" y1="125.73" x2="71.12" y2="116.84" width="0.762" layer="91"/>
+<wire x1="71.12" y1="116.84" x2="71.12" y2="100.33" width="0.762" layer="91"/>
 <wire x1="71.12" y1="100.33" x2="60.96" y2="100.33" width="0.762" layer="91"/>
 <pinref part="D1" gate="G$1" pin="C"/>
 <junction x="48.26" y="100.33"/>
@@ -2375,6 +2362,21 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1809192312_Everlight-Elec-
 <wire x1="-2.54" y1="118.11" x2="2.54" y2="118.11" width="0.762" layer="91"/>
 <wire x1="2.54" y1="118.11" x2="2.54" y2="110.49" width="0.762" layer="91"/>
 <junction x="60.96" y="100.33"/>
+<pinref part="PROMINI" gate="G$1" pin="GND"/>
+<wire x1="116.84" y1="72.39" x2="137.16" y2="72.39" width="0.762" layer="91"/>
+<wire x1="137.16" y1="72.39" x2="137.16" y2="71.12" width="0.762" layer="91"/>
+<pinref part="1" gate="A" pin="9"/>
+<wire x1="137.16" y1="71.12" x2="137.16" y2="-11.43" width="0.762" layer="91"/>
+<wire x1="137.16" y1="-11.43" x2="165.1" y2="-11.43" width="0.762" layer="91"/>
+<pinref part="D2" gate="G$1" pin="C"/>
+<wire x1="166.37" y1="53.34" x2="166.37" y2="71.12" width="0.762" layer="91"/>
+<wire x1="166.37" y1="71.12" x2="160.02" y2="71.12" width="0.762" layer="91"/>
+<junction x="137.16" y="71.12"/>
+<wire x1="160.02" y1="71.12" x2="137.16" y2="71.12" width="0.762" layer="91"/>
+<wire x1="71.12" y1="116.84" x2="160.02" y2="116.84" width="0.762" layer="91"/>
+<wire x1="160.02" y1="116.84" x2="160.02" y2="71.12" width="0.762" layer="91"/>
+<junction x="71.12" y="116.84"/>
+<junction x="160.02" y="71.12"/>
 </segment>
 </net>
 <net name="N$4" class="0">
