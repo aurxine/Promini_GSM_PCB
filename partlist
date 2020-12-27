@@ -1,0 +1,18 @@
+Partlist
+
+Exported from prominifinal.sch at 27-Dec-20 3:41 PM
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value          Device        Package             Library          Sheet
+
+1                       PINHD-1X10    1X10                pinhead          1
+2                       PINHD-1X10    1X10                pinhead          1
+D2       RED            LED-RED1206   LED-1206            SparkFun-LED     1
+DIODE                   DIODESOD-323F SOD-323F            adafruit         1
+IC1      EL357N-B-TA-G  EL357N-B-TA-G SOP254P700X200-4N   EL357N-B-TA-G    1
+PROMINI  PRO-MINI       PRO-MINI      PRO-MINI            Arduino-clone    1
+U$1      SIM800LMODULE  SIM800LMODULE SIM800LMODULE       SIM800LMODULE    1
+VCC-GND                 CONN_025MM    SCREWTERMINAL-5MM-2 SparkFun-Retired 1
