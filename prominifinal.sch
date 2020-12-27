@@ -2099,7 +2099,6 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1809192312_Everlight-Elec-
 <part name="2" library="pinhead" deviceset="PINHD-1X10" device=""/>
 <part name="1" library="pinhead" deviceset="PINHD-1X10" device=""/>
 <part name="DIODE" library="adafruit" deviceset="DIODE" device="SOD-323F"/>
-<part name="D1" library="SparkFun-LED" deviceset="LED-RED" device="1206" value="RED"/>
 <part name="U$1" library="SIM800LMODULE" deviceset="SIM800LMODULE" device=""/>
 <part name="VCC-GND" library="SparkFun-Retired" deviceset="CONN_02" device="5MM"/>
 <part name="IC1" library="EL357N-B-TA-G" deviceset="EL357N-B-TA-G" device=""/>
@@ -2123,10 +2122,6 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1809192312_Everlight-Elec-
 <attribute name="NAME" x="53.34" y="138.43" size="1.27" layer="95"/>
 <attribute name="VALUE" x="53.34" y="132.08" size="1.27" layer="96"/>
 </instance>
-<instance part="D1" gate="G$1" x="48.26" y="105.41" smashed="yes">
-<attribute name="NAME" x="44.831" y="100.838" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="50.165" y="100.838" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
-</instance>
 <instance part="U$1" gate="G$1" x="104.14" y="132.08" smashed="yes"/>
 <instance part="VCC-GND" gate="G$1" x="-10.16" y="118.11" smashed="yes">
 <attribute name="VALUE" x="-12.7" y="113.284" size="1.778" layer="96" font="vector"/>
@@ -2146,29 +2141,17 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1809192312_Everlight-Elec-
 <nets>
 <net name="N$1" class="0">
 <segment>
-<wire x1="2.54" y1="125.73" x2="12.7" y2="125.73" width="0.762" layer="91"/>
-<wire x1="12.7" y1="125.73" x2="22.86" y2="125.73" width="0.762" layer="91"/>
+<wire x1="2.54" y1="125.73" x2="22.86" y2="125.73" width="0.762" layer="91"/>
 <wire x1="22.86" y1="125.73" x2="22.86" y2="113.03" width="0.762" layer="91"/>
 <wire x1="43.18" y1="113.03" x2="43.18" y2="135.89" width="0.762" layer="91"/>
 <wire x1="43.18" y1="135.89" x2="53.34" y2="135.89" width="0.762" layer="91"/>
-<wire x1="43.18" y1="113.03" x2="48.26" y2="113.03" width="0.762" layer="91"/>
-<wire x1="48.26" y1="113.03" x2="48.26" y2="107.95" width="0.762" layer="91"/>
-<junction x="48.26" y="113.03"/>
-<wire x1="48.26" y1="113.03" x2="111.76" y2="113.03" width="0.762" layer="91"/>
+<wire x1="43.18" y1="113.03" x2="129.54" y2="113.03" width="0.762" layer="91"/>
 <pinref part="DIODE" gate="G$1" pin="A"/>
-<pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="22.86" y1="113.03" x2="43.18" y2="113.03" width="0.762" layer="91"/>
 <junction x="43.18" y="113.03"/>
-<pinref part="2" gate="A" pin="10"/>
-<wire x1="50.8" y1="24.13" x2="50.8" y2="-16.51" width="0.762" layer="91"/>
-<wire x1="50.8" y1="-16.51" x2="15.24" y2="-16.51" width="0.762" layer="91"/>
-<wire x1="12.7" y1="125.73" x2="12.7" y2="24.13" width="0.762" layer="91"/>
-<wire x1="12.7" y1="24.13" x2="50.8" y2="24.13" width="0.762" layer="91"/>
-<junction x="12.7" y="125.73"/>
 <pinref part="VCC-GND" gate="G$1" pin="2"/>
 <wire x1="-2.54" y1="120.65" x2="2.54" y2="120.65" width="0.762" layer="91"/>
 <wire x1="2.54" y1="120.65" x2="2.54" y2="125.73" width="0.762" layer="91"/>
-<wire x1="111.76" y1="113.03" x2="129.54" y2="113.03" width="0.762" layer="91"/>
 <wire x1="129.54" y1="113.03" x2="129.54" y2="74.93" width="0.762" layer="91"/>
 <pinref part="PROMINI" gate="G$1" pin="RAW"/>
 <wire x1="129.54" y1="74.93" x2="116.84" y2="74.93" width="0.762" layer="91"/>
@@ -2352,10 +2335,7 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1809192312_Everlight-Elec-
 <wire x1="71.12" y1="125.73" x2="71.12" y2="116.84" width="0.762" layer="91"/>
 <wire x1="71.12" y1="116.84" x2="71.12" y2="100.33" width="0.762" layer="91"/>
 <wire x1="71.12" y1="100.33" x2="60.96" y2="100.33" width="0.762" layer="91"/>
-<pinref part="D1" gate="G$1" pin="C"/>
-<junction x="48.26" y="100.33"/>
-<wire x1="60.96" y1="100.33" x2="48.26" y2="100.33" width="0.762" layer="91"/>
-<wire x1="48.26" y1="100.33" x2="22.86" y2="100.33" width="0.762" layer="91"/>
+<wire x1="60.96" y1="100.33" x2="22.86" y2="100.33" width="0.762" layer="91"/>
 <wire x1="22.86" y1="110.49" x2="22.86" y2="100.33" width="0.762" layer="91"/>
 <wire x1="2.54" y1="110.49" x2="22.86" y2="110.49" width="0.762" layer="91"/>
 <pinref part="VCC-GND" gate="G$1" pin="1"/>
@@ -2423,6 +2403,16 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/1809192312_Everlight-Elec-
 <pinref part="D2" gate="G$1" pin="A"/>
 <wire x1="144.78" y1="55.88" x2="158.75" y2="55.88" width="0.762" layer="91"/>
 <wire x1="158.75" y1="55.88" x2="158.75" y2="53.34" width="0.762" layer="91"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="PROMINI" gate="G$1" pin="D8"/>
+<wire x1="76.2" y1="49.53" x2="53.34" y2="49.53" width="0.762" layer="91"/>
+<wire x1="53.34" y1="49.53" x2="53.34" y2="-17.78" width="0.762" layer="91"/>
+<wire x1="53.34" y1="-17.78" x2="15.24" y2="-17.78" width="0.762" layer="91"/>
+<pinref part="2" gate="A" pin="10"/>
+<wire x1="15.24" y1="-17.78" x2="15.24" y2="-16.51" width="0.762" layer="91"/>
 </segment>
 </net>
 </nets>
